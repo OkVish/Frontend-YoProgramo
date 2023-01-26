@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+hr{
+    border: 0;
+        height: 1px;
+        background:black;
+        background-image: linear-gradient(to right, #ccc, rgb(0, 0, 0), #ccc);
+    }

@@ -1,0 +1,28 @@
+.container-fluid{
+  height: 80px;
+  background-color: #00171F;
+  color: aliceblue;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: row;
+}
+#ArgPro{
+  height: 100px;
+  margin-top: -15px;
+}
+
+.redes {
+  margin-right: 0.5em;
+  margin-top: -6px;
+}
+
+#redes {
+  width: 50px;
+  padding: 5px;
+}
+
+.btn {
+  border-width: medium;
+}
