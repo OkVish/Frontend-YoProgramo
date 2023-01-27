@@ -42,13 +42,13 @@ img {
 }
 
 #argpro{
-  max-width: auto;
-  max-height: auto;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: contain;
-  background-color: black;
+max-width: auto;
+max-height: auto;
+width: 120px;
+height: 120px;
+border-radius: 50%;
+object-fit: contain;
+background-color: black;
 }
 
 .educacion-titulo {
