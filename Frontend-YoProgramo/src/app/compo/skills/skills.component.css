@@ -1,5 +1,25 @@
 h1 {
-    text-align: center;
-    text-decoration: underline;
-    font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.container-fluid {
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%;
 }
