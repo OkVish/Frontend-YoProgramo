@@ -1,30 +1,36 @@
-
-div{
+div {
   background-color: #00171F;
 }
 
 .acerca-principal {
-    padding: 5rem;
-}
-  
-.acerca-imagen-{
-    width: 5x;
-    height: 5px;
-    margin: 20px;
+  padding: 5rem;
 }
 
-h1,h2{
+.acerca-imagen- {
+  width: 5x;
+  height: 5px;
+  margin: 20px;
+}
+
+h1,
+h2 {
   color: #fefefe
 }
 
-.contenedor{
+.contenedor {
   height: 500px;
   padding: 10px;
 }
 
-p{
+p {
   max-width: 600px;
   text-align: center;
   color: #fefefe
 }
 
+@media (max-width: 610px) {
+  p, h1, h2 {
+  padding: 1rem;
+  text-align: center;
+  }
+}

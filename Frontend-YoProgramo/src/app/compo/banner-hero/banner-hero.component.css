@@ -1,32 +1,32 @@
 .container-fluid{
   display: flex;
-  justify-content: center;
-  height: 700px;
+  flex-direction: row;
+  height: 700px;;
   width: 100%;
   background-image: url(src\assets\banner.png);
   background-size: 100% 100%;
   position: relative;
 }
 
-/*Estilo de la foto de perfil*/
-
-@media (min-width: 576px) {
-  #fotodeperfil {
-    position: absolute;
-    height: 55%;
-    width: 17%;
-    border-radius: 50%;
-    left: 40%;
-    top: 320px;
-  }
+img{
+  position: absolute;
+  height: 350px;
+  width: 300px;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-@media (max-width: 575px) {
-  #fotodeperfil {
+@media (max-width: 375px) {
+  img{
     position: absolute;
-    height: 40%;
-    border-radius: 50%;
-    left: 30%;
-    top: 420px;
+      height: 180px;
+      width: 190px;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .container-fluid{
+    height: 400px;
   }
 }

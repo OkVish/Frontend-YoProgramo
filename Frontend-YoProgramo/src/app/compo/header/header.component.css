@@ -54,3 +54,18 @@
 .iconos-redes-sociales a:hover i {
   color: black;
 }
+
+@media (max-width: 760px) {
+  .container-fluid {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+
+    .iconos-redes-sociales a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
